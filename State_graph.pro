@@ -18,7 +18,10 @@ SOURCES += src/State_graph.cpp
 
 DISTFILES += qml/State_graph.qml \
     qml/cover/CoverPage.qml \
+    qml/pages/DefaultBtn.qml \
     qml/pages/FirstPage.qml \
+    qml/pages/Lights.qml \
+    qml/pages/MyTimer.qml \
     qml/pages/SecondPage.qml \
     qml/pages/Task_3.qml \
     qml/pages/Task_4.qml \

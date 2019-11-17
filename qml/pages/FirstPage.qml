@@ -17,6 +17,26 @@ Page {
                 text: qsTr("Show Page 2")
                 onClicked: pageStack.push(Qt.resolvedUrl("SecondPage.qml"))
             }
+            MenuItem {
+                text: qsTr("Show Page 3")
+                onClicked: pageStack.push(Qt.resolvedUrl("Task_3.qml"))
+            }
+            MenuItem {
+                text: qsTr("Show Page 4")
+                onClicked: pageStack.push(Qt.resolvedUrl("Task_4.qml"))
+            }
+            MenuItem {
+                text: qsTr("Show Page 5")
+                onClicked: pageStack.push(Qt.resolvedUrl("Task_5.qml"))
+            }
+            MenuItem {
+                text: qsTr("Show Page 6")
+                onClicked: pageStack.push(Qt.resolvedUrl("Task_6.qml"))
+            }
+            MenuItem {
+                text: qsTr("Show Page 7")
+                onClicked: pageStack.push(Qt.resolvedUrl("Task_7.qml"))
+            }
         }
 
         // Tell SilicaFlickable the height of its content.
