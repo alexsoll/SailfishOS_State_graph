@@ -30,6 +30,14 @@
         <source>Show Page 5</source>
         <translation type="unfinished">Zur Seite 5</translation>
     </message>
+    <message>
+        <source>Show Page 6</source>
+        <translation type="unfinished">Zur Seite 6</translation>
+    </message>
+    <message>
+        <source>Show Page 7</source>
+        <translation type="unfinished">Zur Seite 7</translation>
+    </message>
 </context>
 <context>
     <name>SecondPage</name>
@@ -67,16 +75,19 @@
 <context>
     <name>Task_5</name>
     <message>
+        <source>Hello</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Task_6</name>
+    <message>
         <source>Show Page 2</source>
         <translation type="unfinished">Zur Seite 2</translation>
     </message>
     <message>
         <source>Show Page 3</source>
         <translation type="unfinished">Zur Seite 3</translation>
-    </message>
-    <message>
-        <source>Hello</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

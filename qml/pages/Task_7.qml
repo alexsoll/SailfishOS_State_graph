@@ -4,11 +4,6 @@ import Sailfish.Silica 1.0
 
 Page {
     id: page
-
-    property var added: 0
-    property var removed: 0
-    property var prev: 0
-
     SilicaFlickable {
         anchors.fill: parent
 
@@ -19,17 +14,6 @@ Page {
         Column {
             id: column
             width: parent.width
-            Connections {
-                target: pageStack
-                onDepthChanged: {
-                    if (page.prev > pageStack.depth) {
-                        page.removed = page.removed + 1
-                    } else {
-                        page.added = page.added + 1
-                    }
-                    page.prev = pageStack.depth
-                }
-            }
 
             spacing: Theme.paddingLarge
             Button {
@@ -45,11 +29,11 @@ Page {
             }
             Label {
                 anchors.horizontalCenter: parent.horizontalCenter;
-                text: "Added : " + page.added
+                text: "Added : " + added
             }
             Label {
                 anchors.horizontalCenter: parent.horizontalCenter;
-                text: "Remove : " + page.removed
+                text: "Remove : " + removed
             }
         }
     }

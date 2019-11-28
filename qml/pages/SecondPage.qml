@@ -148,7 +148,7 @@ Page {
             id: human
             x: 50
             y: 900
-            width: 50
+            width: 100
             height: width
             border.color: "transparent"
             border.width: 1

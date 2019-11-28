@@ -5,6 +5,8 @@ Item {
     default property var txt
     property color clr: "white"
     Button {
+        anchors.verticalCenter: parent.verticalCenter
+        anchors.horizontalCenter: parent.horizontalCenter
         text: txt.text
         color: clr
     }
